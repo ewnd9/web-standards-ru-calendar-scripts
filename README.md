@@ -1,6 +1,6 @@
 # `web-standards-ru-calendar-scripts`
 
-Prints future events in a specified city.
+Prints future events in a specified city
 
 ## Install
 

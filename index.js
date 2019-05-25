@@ -18,6 +18,6 @@ const parse = require('date-fns/parse');
       event => event.city === target && isAfter(parse(event.date.split('-')[0], 'dd.MM.yyyy', 0), now)
     )
     .forEach(
-      event => console.log(`- ${event.name} (${event.date} ${event.time})\n  - ${event.link}\n`)
+      event => console.log(`- ${event.name} (${event.date} ${event.time || ''})\n  - ${event.link}\n`)
     );
 })();
