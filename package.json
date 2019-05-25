@@ -1,0 +1,10 @@
+{
+  "name": "web-standards-ru-calendar-scripts",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "date-fns": "^2.0.0-alpha.27",
+    "globby": "^9.2.0",
+    "js-yaml": "^3.13.1"
+  }
+}
