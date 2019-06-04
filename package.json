@@ -2,6 +2,13 @@
   "name": "web-standards-ru-calendar-scripts",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "git:update": "cd calendar && git pull origin master",
+    "moscow": "yarn git:update && yarn moscow:raw",
+    "moscow:raw": "node . Москва",
+    "spb": "yarn git:update && yarn spb:raw",
+    "spb:raw": "node . Санкт-Петербург"
+  },
   "dependencies": {
     "date-fns": "^2.0.0-alpha.27",
     "globby": "^9.2.0",
