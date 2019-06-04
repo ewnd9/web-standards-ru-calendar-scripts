@@ -14,6 +14,7 @@ $ yarn install
 $ git submodule update --init && (cd calendar && git pull origin master)
 $ yarn moscow
 $ yarn spb
+$ yarn print <russian-name>
 ```
 
 ## License

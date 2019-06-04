@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "git:update": "cd calendar && git pull origin master",
+    "print": "yarn git:update && yarn print:raw",
+    "print:raw": "node .",
     "moscow": "yarn git:update && yarn moscow:raw",
     "moscow:raw": "node . Москва",
     "spb": "yarn git:update && yarn spb:raw",
